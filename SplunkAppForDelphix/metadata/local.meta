@@ -1,0 +1,195 @@
+[app/ui]
+version = 6.3.0
+modtime = 1443618483.694937000
+
+[app/launcher]
+version = 6.3.0
+modtime = 1443618483.695980000
+
+[inputs/splunktcp%3A%2F%2F9997]
+owner = admin
+version = 6.3.0
+modtime = 1443618628.014086000
+
+[indexes/delphix]
+owner = admin
+version = 6.3.0
+modtime = 1443620777.247891000
+
+[indexes/delphix_api]
+owner = admin
+version = 6.3.0
+modtime = 1443626125.516524000
+
+[inputs/monitor%3A%2F%2F%2Fvar%2Fdelphix%2Fserver%2Flog%2Fmgmt_log%2Faccess_log]
+owner = admin
+version = 6.3.0
+modtime = 1443628971.894353000
+
+[props/debug]
+owner = admin
+version = 6.3.0
+modtime = 1443629055.745711000
+
+[inputs/monitor%3A%2F%2F%2Fvar%2Fdelphix%2Fserver%2Flog%2Fmgmt_log%2Fdebug.log]
+owner = admin
+version = 6.3.0
+modtime = 1443629067.092927000
+
+[props/ErrorLog]
+owner = admin
+version = 6.3.0
+modtime = 1443629143.595932000
+
+[inputs/monitor%3A%2F%2F%2Fvar%2Fdelphix%2Fserver%2Flog%2Fmgmt_log%2Ferror.log]
+owner = admin
+version = 6.3.0
+modtime = 1443629151.499951000
+
+[props/InfoLog]
+owner = admin
+version = 6.3.0
+modtime = 1443629191.812133000
+
+[inputs/monitor%3A%2F%2F%2Fvar%2Fdelphix%2Fserver%2Flog%2Fmgmt_log%2Finfo.log]
+owner = admin
+version = 6.3.0
+modtime = 1443629208.585364000
+
+[inputs/monitor%3A%2F%2F%2Fvar%2Fdelphix%2Fserver%2Flog%2Fmgmt_log%2FfailedActions]
+owner = admin
+version = 6.3.0
+modtime = 1443629305.405266000
+
+[props/MemoryTrace]
+owner = admin
+version = 6.3.0
+modtime = 1443629364.298533000
+
+[inputs/monitor%3A%2F%2F%2Fvar%2Fdelphix%2Fserver%2Flog%2Fmgmt_log%2Fmemory.log]
+owner = admin
+version = 6.3.0
+modtime = 1443629376.182785000
+
+[props/opensource]
+owner = admin
+version = 6.3.0
+modtime = 1443629414.569678000
+
+[inputs/monitor%3A%2F%2F%2Fvar%2Fdelphix%2Fserver%2Flog%2Fmgmt_log%2Fopensource.log]
+owner = admin
+version = 6.3.0
+modtime = 1443629420.163050000
+
+[props/stdout]
+owner = admin
+version = 6.3.0
+modtime = 1443629469.646046000
+
+[inputs/monitor%3A%2F%2F%2Fvar%2Fdelphix%2Fserver%2Flog%2Fmgmt_log%2Fstdout.log]
+owner = admin
+version = 6.3.0
+modtime = 1443629492.236011000
+
+[props/tracelog]
+owner = admin
+version = 6.3.0
+modtime = 1443629516.634062000
+
+[inputs/monitor%3A%2F%2F%2Fvar%2Fdelphix%2Fserver%2Flog%2Fmgmt_log%2Ftrace.log]
+owner = admin
+version = 6.3.0
+modtime = 1443629522.746137000
+
+[inputs/monitor%3A%2F%2F%2Fvar%2Fdelphix%2Fserver%2Flog%2Fsmf_log]
+owner = admin
+version = 6.3.0
+modtime = 1443629631.454302000
+
+[inputs/monitor%3A%2F%2F%2Fvar%2Fdelphix%2Fserver%2Flog%2Fsys_log%2Fmessages]
+owner = admin
+version = 6.3.0
+modtime = 1443629690.810458000
+
+[inputs/monitor%3A%2F%2F%2Fvar%2Fdelphix%2Fserver%2Flog%2Fsys_log%2Fsyslog]
+owner = admin
+version = 6.3.0
+modtime = 1443629720.972160000
+
+[props/stmfConfig]
+owner = admin
+version = 6.3.0
+modtime = 1443629766.107253000
+
+[inputs/monitor%3A%2F%2F%2Fvar%2Fdelphix%2Fserver%2Flog%2Fsys_log%2Fstmf_cfg.log]
+owner = admin
+version = 6.3.0
+modtime = 1443629773.229608000
+
+[props/AuthLog]
+owner = admin
+version = 6.3.0
+modtime = 1443629803.420628000
+
+[inputs/monitor%3A%2F%2F%2Fvar%2Fdelphix%2Fserver%2Flog%2Fsys_log%2Fauthlog]
+owner = admin
+version = 6.3.0
+modtime = 1443629808.655300000
+
+[views/delphix_overview]
+owner = admin
+version = 6.3.0
+modtime = 1443633120.270379000
+
+[props/debug/EXTRACT-job_id%2Cjob_action%2Cdb_name%2Cdb_host%2Cuser%2Csrc_dir]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 6.3.0
+modtime = 1443649465.231078000
+
+[props/debug/EXTRACT-job_id%2Cjob_action%2Capp_name]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 6.3.0
+modtime = 1443650885.758572000
+
+[props/debug/EXTRACT-status]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 6.3.0
+modtime = 1443651467.918152000
+
+[views/dynamic_delphix_dashbaord]
+owner = admin
+version = 6.3.0
+modtime = 1443731357.060885000
+
+[lookups/db_lookup.csv]
+export = none
+owner = admin
+version = 6.3.0
+modtime = 1443655865.805916000
+
+[nav/default]
+version = 6.3.0
+modtime = 1443656628.013014000
+
+[views/duration]
+owner = admin
+version = 6.3.0
+modtime = 1443733871.431679000
+
+[views/dynamic_delphix_context_drilldown]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.3.0
+modtime = 1443728571.967514000
+
+[views/operations]
+owner = admin
+version = 6.3.0
+modtime = 1443735399.196558000

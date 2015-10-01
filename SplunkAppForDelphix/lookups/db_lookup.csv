@@ -1,0 +1,4 @@
+app_name, template, container
+JS_DATA_CONTAINER-1, "Sugar CRM", DEV
+JS_DATA_CONTAINER-4, "Remedy DB", PROD
+MYSQL_DB_CONTAINER-31, "Cloud Lifecycle Manager", QA
